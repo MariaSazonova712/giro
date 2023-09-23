@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Гироскутеры</title>
+    <style>
+          *{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1180px;
+}
+
+h3{
+    margin: 0;
+    margin-top: 5px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.main_menu ul li{
+    list-style-type: none;
+    margin-left: 33px;
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.banner{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.banner img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.banner_name{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    top: 306px;
+}
+
+.banner_name h1{
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.banner_name p{
+    margin-top: 39px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.banner_name button{
+    width: 133px;
+    height: 35px;
+    border-radius: 10px;
+    background: #FFF;
+    color: black;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    border: 0;
+    margin-top: 65px;
+}
+
+.main{
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.about_us{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+h2{
+    margin: 0;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.about_us p{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.about_us p:nth-child(1){
+    margin: 0;
+    margin-top: 50px;
+}
+
+.about_us p:nth-child(2){
+    margin: 0;
+    margin-top: 20px;
+}
+
+.background{
+    background-color: #EEF2E3;
+}
+
+.catalog{
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog ul li{
+    list-style-type: none;
+    margin-left: 39px;
+    display: inline;
+}
+
+.catalog ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+ .catalog ul li a:hover{
+    color: #7e7575;
+    transition-duration: 0.1s;
+    transform: scale(1.5);
+}
+
+.catalog ul li:hover{
+    transform: scale(1.5);
+    background-color: #F90;
+    transition-duration: 0.1s;
+    border-radius: 15px;
+}
+
+.products{
+    margin: 0 auto;
+    width: 1180px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.tovar{
+    width: 261px;
+    height: 390px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.50);
+    margin-top: 50px;
+    background-color: #FFF;
+}
+
+.otstup{
+    height: 16px;
+}
+
+.vid{
+    width: 83px;
+    height: 30px;
+    background-image: url('img/Rectangle 6.png');
+}
+
+.vid p{
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+.sigvei img{
+    position: relative;
+    margin: 0px 11px;
+}
+
+.name{
+    margin: 0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    padding-left: 28px;
+}
+
+.prise{
+    margin: 0;
+    padding-top: 13px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 28px;
+}
+
+.polez_inf{
+    margin-top: 60px;
+}
+
+.polez_inf h2{
+    margin-bottom: 50px;
+}
+
+.kv{
+    background-color: black;
+    width: 261px;
+    height: 261px;
+}
+
+.kv img{
+    opacity: 60%;
+}
+
+.kv p{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: -163px;
+}
+
+footer{
+    width: 100%;
+    background-color: #EEF2E3;
+    height: 327px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: #8191A6;
+}
+
+footer h4{
+    color: black;
+}
+
+footer section{
+    display: flex;
+}
+
+.bl{
+    margin-left: 200px;
+}
+
+footer div{
+    margin-left: 42px;
+}
+
+footer ul{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li{
+    color: #8191A6;
+    display: block;
+}
+        </style>
+    </head>
+    <body>
+        <header>
+            <h3>My-Giro</h3>
+            <nav class="main_menu">
+                <ul>
+                    <li><a href="">ПРЕИМУЩЕСТВА</a></li>
+                    <li><a href="">О НАС</a></li>
+                    <li><a href="">ОСОБЕННОСТИ</a></li>
+                    <li><a href="">КАТАЛОГ</a></li>
+                    <li><a href="">КОМАНДА</a></li>
+                    <li><a href="">БРЕНДЫ</a></li>
+                    <li><a href="">ПОЛЕЗНОЕ</a></li>
+                </ul>
+            </nav>
+        </header>
+            <div class="banner">
+                <img src="img/scooter-3620869_960_720 1.png" alt="">
+                <div class="banner_name">
+                    <h1>My-Giro</h1>
+                    <p>
+                        Крупнейший интернет-магазин гироскутеров, <br>
+                        сигвеев и электросамокатов от известных 
+                        мировых производителей
+                    </p>
+                    <button>В КАТАЛОГ</button>
+                </div>
+            </div>
+            <section class="main">
+    
+                <div class="about_us">
+                    <h2>О нас</h2>
+                    <p>
+                        В нашем интернет-магазине представлен большой 
+                        выбор гироскутеров, сигвеев и электросамокатов
+                        от известных мировых производителей.
+                    </p>
+    
+                    <p>
+                        В нашем интернет-магазине представлен большой
+                        выбор гироскутеров, сигвеев и электросамокатов
+                        от известных мировых производителей.
+                        Все товары, представленные на нашем сайте,
+                        отобраны лучшими специалистами в этой области.
+                        Купить гироскутер, электросамокат
+                        или сигвей недорого.
+                    </p>
+                </div>
+            </section>
+    <div class="background">
+            <section class="main">
+                <div class="catalog">
+                    <h2>Каталог</h2>
+                    <ul>
+                        <li><a href="">Все</a></li>
+                        <li><a href="">Гироскутеры</a></li>
+                        <li><a href="">Электросамокаты</a></li>
+                        <li><a href="">Сигвеи</a></li>
+                    </ul>
+                </div>
+            </section>
+        <section class="products">
+                <div class="tovar">
+                    <div class="sigvei">
+                        <div class="otstup"></div>
+                        <div class="vid"><p>Сигвеи</p></div>
+                        <img src="img/2 1.png" alt="">
+                        <p class="name">Xiaomi Ninebot mini Pro <br> White (Белый)</p>
+                        <p class="prise">31 480 р.</p>
+                    </div>
+                </div>
+    
+                <div class="tovar">
+                    <div class="sigvei">
+                        <div class="otstup"></div>
+                        <div class="vid"><p>Сигвеи</p></div>
+                        <img src="img/2 1.png" alt="">
+                        <p class="name">Xiaomi Ninebot mini Pro <br> White (Белый)</p>
+                        <p class="prise">31 480 р.</p>
+                    </div>
+                </div>
+    
+                <div class="tovar">
+                    <div class="sigvei">
+                        <div class="otstup"></div>
+                        <div class="vid"><p>Сигвеи</p></div>
+                        <img src="img/2 1.png" alt="">
+                        <p class="name">Xiaomi Ninebot mini Pro <br> White (Белый)</p>
+                        <p class="prise">31 480 р.</p>
+                    </div>
+                </div>
+    
+                <div class="tovar">
+                    <div class="sigvei">
+                        <div class="otstup"></div>
+                        <div class="vid"><p>Сигвеи</p></div>
+                        <img src="img/2 1.png" alt="">
+                        <p class="name">Xiaomi Ninebot mini Pro <br> White (Белый)</p>
+                        <p class="prise">31 480 р.</p>
+                    </div>
+                </div>
+        </section>
+    </div>
+            <section class="main">
+                <div class="polez_inf">
+                    <h2>Полезная информация</h2>
+                    <section class="products">
+                        <div class="kv">
+                            <img src="img/1 921.png" alt="">
+                            <p>Как выбрать гироскутер? Советы перед покупкой</p>
+                        </div>
+                        <div class="kv">
+                            <img src="img/1 921.png" alt="">
+                            <p>Как выбрать гироскутер? Советы перед покупкой</p>
+                        </div>
+                        <div class="kv">
+                            <img src="img/1 921.png" alt="">
+                            <p>Как выбрать гироскутер? Советы перед покупкой</p>
+                        </div>
+                        <div class="kv">
+                            <img src="img/1 921.png" alt="">
+                            <p>Как выбрать гироскутер? Советы перед покупкой</p>
+                        </div>
+                    </section>
+                </div>
+            </section>
+                
+    
+             <footer>
+                <section class="main">
+                    <p>
+                        В нашем интернет-магазине представлен большой <br>
+                        выбор гироскутеров, сигвеев и электросамокатов <br>
+                        от известных мировых производителей. <br> <br> 
+                        Все товары, представленные на нашем сайте,<br>
+                        этобраны лучшими специалистами в этой области. <br> <br>
+                        Copyright © 2020 My-Giro
+                    </p>
+                    <section class="bl">
+                        <div>
+                            <h4>КОМПАНИЯ MY-GIRO</h4>
+                            <nav>
+                                <ul>
+                                    <li>О НАС</li>
+                                    <li>Наши преимущества</li>
+                                    <li>Наши консультанты</li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div>
+                            <h4>ПОКУПАТЕЛЯМ</h4>
+                            <nav>  
+                                <ul>
+                                    <li>Каталог</li>
+                                    <li>Бренды</li>
+                                    <li>Полезная информация</li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div>
+                            <h4>ПОМОЩЬ</h4>
+                            <nav>
+                                <ul> 
+                                    <li>Как оформить заказ</li>
+                                    <li>Способы оплаты</li>
+                                    <li>Обмен и возврат товара</li>
+                                </ul>
+                            </nav>
+                        </div>   
+                    </section>
+                        
+                </section>
+                
+            </footer>
+        
+    </body>
+    </html>
+    
+    </body>
+    </html>
